@@ -1,6 +1,4 @@
 export function sum(a, b) {
-  let summa = a + b;
-  document.body.innerHTML += `<p>Сумма = ${summa}</p>`;
-  return summa;
+  return Number(a) + Number(b);
   //element.innerHTML = `count is ${counter}`
 }
